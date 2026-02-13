@@ -141,4 +141,9 @@ p{
     border-style: solid;
     border-color: #e5e7eb;
 }
-
+.footer{
+    background-color: #1f2937;
+    color:#e5e7eb;
+    text-align: center;
+    padding: 32px 0;
+}
