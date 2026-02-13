@@ -7,7 +7,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color:#1f2937;
-    padding: 0px 200px;
+    padding: 16px 80px;
 }
 ul{
     list-style-type: none;
@@ -26,14 +26,17 @@ a{
 .section-1{
     display:flex;
     align-items: center;
-    padding:100px 200px;
-    justify-content:space-between;
+    padding:80px 200px;
+    justify-content:center;
     background-color: #1f2937;
-    gap:32px;
+    gap:40px;
+}
+.section-1-left{
+    width: 500px;
 }
 img{
-    width:500px;
-    height:250px;
+    max-width:500px;
+    height: auto;
 }
 h1{
     font-size: 48px;
@@ -54,6 +57,34 @@ p{
     padding: 8px 24px;
     font-weight: 600;
 }
+.fav-song-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight:900;
+    color:#1f2937;
+}
+.section-2{
+    padding: 60px 100px;
+}
+.card-carousel{
+    display:flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+}
+.cards{
+    width:200px;
+}
 .img-card{
-    width: auto;
+    width: 200px;
+    height: fit-content;
+    border-radius:20px;
+    border-style: solid;
+    border-color:#3882f6;
+
+}
+.img-card-text{
+    text-align: center;
 }
