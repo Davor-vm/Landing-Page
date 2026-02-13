@@ -111,3 +111,34 @@ p{
     font-size: 24px;
     font-weight: 600;
 }
+.section-4{
+    display: flex;
+    align-items:center;
+    padding: 80px 200px;
+    gap:40px;
+}
+.blue-section{
+    background-color: #3882f6;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:40px 80px;
+    border-radius: 20px;
+    gap:16px;
+    flex:1;
+}
+.call-to{
+    font-size: 24px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+#call-to-text{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+.signup.translucent{
+    background-color: rgba(56, 130, 246, 0.8);
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
