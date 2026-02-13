@@ -88,3 +88,26 @@ p{
 .img-card-text{
     text-align: center;
 }
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding:100px 200px;
+}
+.quote-content{
+    display: flex;
+    flex-direction: column;
+}
+#quote{
+    font-size:36px;
+    color:#1f2937;
+    font-weight: 300;
+    font-style: italic;
+    margin:8px;
+}
+#author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+}
